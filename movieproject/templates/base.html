@@ -9,10 +9,12 @@
 </head>
 <body>
 <!-- Image and text -->
-<nav class="navbar navbar-dark bg-dark">
+<nav class="navbar navbar-aqua bg-aqua">
   <a class="navbar-brand" href="#">
       Online movie store
     </a>
+    <a href="{% url 'movieapp:add_movie'  %}" style="margin-left: 25px;"class="btn btn-primary" >Add Movie</a>
+
 </nav>
 {% block body %}
 {% endblock %}
